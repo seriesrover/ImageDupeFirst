@@ -1,0 +1,22 @@
+﻿<Window x:Class="ImageDupeFirst.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImageDupeFirst"
+        mc:Ignorable="d"
+        Title="ImageDupe" Height="450" Width="850">
+    <Grid Margin="0,0,10,0">
+        <Image x:Name="ImageLeft" HorizontalAlignment="Left" Height="300" Margin="10,10,0,0" VerticalAlignment="Top" Width="400"/>
+        <Image x:Name="ImageRight" HorizontalAlignment="Left" Height="300" Margin="430,10,10,0" VerticalAlignment="Top" Width="400"/>
+        <Button Content="Previous" HorizontalAlignment="Left" Margin="335,368,0,0" VerticalAlignment="Top" Width="75" Height="34" RenderTransformOrigin="-0.275,1.132" Click="Previous_Click"/>
+        <Button Content="Next" HorizontalAlignment="Left" Margin="430,368,0,0" VerticalAlignment="Top" Width="75" Height="34" RenderTransformOrigin="-0.275,1.132" Click="Next_Click"/>
+        <Label x:Name="LabelLeft" Content="" HorizontalAlignment="Left" Margin="10,329,0,0" VerticalAlignment="Top" Width="400"/>
+        <Label x:Name="LabelRight" Content="" HorizontalAlignment="Left" Margin="432,329,0,0" VerticalAlignment="Top" Width="400"/>
+        <Button Content="Match" HorizontalAlignment="Left" Margin="747,368,0,0" VerticalAlignment="Top" Width="75" Height="34" RenderTransformOrigin="-0.275,1.132" Click="Match_Click"/>
+        <TextBox x:Name="GoId" HorizontalAlignment="Left" Height="34" Margin="10,368,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+        <Button Content="Go" HorizontalAlignment="Left" Margin="105,368,0,0" VerticalAlignment="Top" Width="75" Height="34" RenderTransformOrigin="-0.275,1.132" Click="Go_Click"/>
+        <Button Content="Go Next" HorizontalAlignment="Left" Margin="198,368,0,0" VerticalAlignment="Top" Width="75" Height="34" RenderTransformOrigin="-0.275,1.132" Click="GoNext_Click"/>
+
+    </Grid>
+</Window>
